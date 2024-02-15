@@ -1,0 +1,75 @@
+#logo {
+  height: min-content;
+  margin-top: 0;
+}
+
+#navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navigation {
+  text-align: left;
+}
+
+#navigation a {
+  text-decoration: none;
+  padding: 8px;
+}
+
+#navigation a:hover {
+  color: red;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.input-field {
+  margin-bottom: 10px;
+  padding: 5px;
+  outline: none;
+  border-radius: 8px;
+  height: 32px;
+  width: 100px;
+}
+
+#input-hasil-konversi {
+  margin-top: 10px;
+  padding: 5px;
+  outline: none;
+  border-radius: 8px;
+  height: 32px;
+  width: 100px;
+}
+
+#penjelasan-konversi {
+  margin-top: 10px;
+  padding: 5px;
+  outline: none;
+  border-radius: 8px;
+  height: 32px;
+  width: 200px;
+}
+
+.btn {
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  width: auto;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+#hasil-konversi {
+  margin-top: 10px;
+  font-size: 18px;
+}

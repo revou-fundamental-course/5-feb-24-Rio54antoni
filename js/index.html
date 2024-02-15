@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi Suhu</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="navigation-bar">
+        <h3 id="logo">Disini Logo</h3>
+        <nav id="navigation">
+            <a href="#">Lihat Hasil</a>
+            <a href="#">Lihat Rumus</a>
+        </nav>
+    </header>
+    <div class="container">
+        <!-- input nilai -->
+        <div class="input-section">
+            <label for="input-field">Celcius ( °C )</label>
+            <input type="number" class="input-field">
+        </div>
+        <!-- tombol -->
+        <button class="btn btn-konversi" onclick="convertToFar()">Konversi</button>
+        <button class="btn btn-reset" onclick="resetFields()">Reset</button>
+        <button class="btn btn-reverse" onclick="reverseConversion()">Reverse</button>
+
+        <!-- tampilan hasil -->
+        <br>
+        <label for="input-hasil-konversi">Fahrenheit ( °F )</label>
+        <br>
+        <input type="text" id="input-hasil-konversi" readonly disabled>
+        
+        <!-- tampilan penjelasan konversi -->
+        <br>
+        <label for="input-hasil-konversi">Cara Kalkulasi :</label>
+        <br>
+        <div class="result-section">
+            <input type="text" id="penjelasan-konversi"  class="result-field" readonly disabled>
+        </div>
+
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
